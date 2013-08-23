@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jquery-local-storage by joshua-arvin-lat</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jquery-local-storage</h1>
+        <p>jQuery plugin for storing string / json in local storage / cookie</p>
+
+        <p class="view"><a href="https://github.com/joshua-arvin-lat/jquery-local-storage">View the Project on GitHub <small>joshua-arvin-lat/jquery-local-storage</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/joshua-arvin-lat/jquery-local-storage/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/joshua-arvin-lat/jquery-local-storage/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/joshua-arvin-lat/jquery-local-storage">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="jquery-local-storage" class="anchor" href="#jquery-local-storage"><span class="octicon octicon-link"></span></a>jQuery Local Storage</h1>
+
+<p>Cross-browser compatible jQuery plugin for storing strings / json in local storage / cookies</p>
+
+<h2>
+<a name="basic-usage" class="anchor" href="#basic-usage"><span class="octicon octicon-link"></span></a>Basic Usage</h2>
+
+<div class="highlight"><pre><span class="nx">$</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">(</span><span class="s1">'key'</span><span class="p">,</span> <span class="s1">'string value'</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="kc">true</span>
+
+<span class="nx">$</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">(</span><span class="s1">'key'</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="s2">"string value"</span>
+
+<span class="nx">$</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">(</span><span class="s1">'json'</span><span class="p">,</span> <span class="p">{</span><span class="s1">'a'</span><span class="o">:</span> <span class="s1">'b'</span><span class="p">,</span> <span class="s1">'c'</span><span class="o">:</span> <span class="s1">'d'</span><span class="p">})</span>
+<span class="o">&gt;</span> <span class="kc">true</span>
+
+<span class="nx">$</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">(</span><span class="s1">'json'</span><span class="p">)[</span><span class="s1">'a'</span><span class="p">]</span>
+<span class="o">&gt;</span> <span class="s2">"b"</span>
+
+<span class="nx">$</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">(</span><span class="s1">'json'</span><span class="p">,</span> <span class="p">{</span><span class="s1">'a'</span><span class="o">:</span> <span class="s1">'b'</span><span class="p">,</span> <span class="s1">'c'</span><span class="o">:</span> <span class="s1">'d'</span><span class="p">,</span> <span class="s1">'e'</span><span class="o">:</span> <span class="p">{</span><span class="s1">'f'</span><span class="o">:</span> <span class="s1">'g'</span><span class="p">}})</span>
+<span class="o">&gt;</span> <span class="kc">true</span>
+
+<span class="nx">$</span><span class="p">.</span><span class="nx">localStorage</span><span class="p">(</span><span class="s1">'json'</span><span class="p">)[</span><span class="s1">'e'</span><span class="p">][</span><span class="s1">'f'</span><span class="p">]</span>
+<span class="o">&gt;</span> <span class="s2">"g"</span>
+</pre></div>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<div class="highlight"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">'text/javascript'</span> <span class="na">src=</span><span class="s">'js/jquery.min.js'</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">'text/javascript'</span> <span class="na">src=</span><span class="s">'js/jquery.local-storage.js'</span><span class="nt">&gt;&lt;/script&gt;</span>
+</pre></div>
+
+<h2>
+<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h2>
+
+<p>© 2013, Joshua Arvin Lat. Released under the <a href="LICENSE">MIT License</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/joshua-arvin-lat">joshua-arvin-lat</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
