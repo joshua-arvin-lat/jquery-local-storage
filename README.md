@@ -24,3 +24,16 @@ $.localStorage('json', {'a': 'b', 'c': 'd', 'e': {'f': 'g'}})
 $.localStorage('json')['e']['f']
 > "g"
 ~~~
+
+Installation
+------------
+
+~~~ html
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/jquery.local-storage.js'></script>
+~~~
+
+Acknowledgements
+----------------
+
+© 2013, Joshua Arvin Lat. Released under the [MIT License](LICENSE).
